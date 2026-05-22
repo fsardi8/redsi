@@ -1,0 +1,13 @@
+{
+  "mcpServers": {
+    "mikrotik": {
+      "command": "node",
+      "args": ["/home/f/redsi/vr/mikrotik-mcp/index.js"],
+      "env": {
+        "MIKROTIK_HOST": "vr.redsi.co",
+        "MIKROTIK_USER": "fsardi",
+        "MIKROTIK_PASSWORD": "u2u2u2u2"
+      }
+    }
+  }
+}

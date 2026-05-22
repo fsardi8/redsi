@@ -1,0 +1,26 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(env)",
+      "Bash(claude code config:*)",
+      "Bash(ls:*)",
+      "Bash(claude:*)",
+      "mcp__mikrotik__mikrotik_wg_status",
+      "mcp__mikrotik__mikrotik_exec",
+      "mcp__mikrotik__mikrotik_firewall",
+      "mcp__mikrotik__mikrotik_ping",
+      "Bash(git init:*)",
+      "Bash(git add:*)",
+      "Bash(git commit:*)",
+      "Bash(git config:*)",
+      "Bash(git remote add:*)",
+      "Bash(git push:*)",
+      "Bash(git remote:*)",
+      "WebFetch(domain:github.com)"
+    ]
+  },
+  "enableAllProjectMcpServers": true,
+  "enabledMcpjsonServers": [
+    "mikrotik"
+  ]
+}
